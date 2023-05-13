@@ -23,3 +23,17 @@ li button{
     float: left;
     margin-bottom: 80px;
 }
+.column4{
+    float: left;
+    text-align: center;
+    width: 40%;
+}
+.buy{
+    border-color: rgb(187, 98, 39);
+    padding:6px 20px;
+    border-radius: 5px;
+}
+.rent{
+    
+
+}
