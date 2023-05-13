@@ -1,0 +1,25 @@
+.nav-bar{
+    border-bottom: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+li button{
+    background-color: rgb(241, 94, 26);
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    padding: 5px 15px;
+}
+.column1{
+    float: Left;
+    width: 33.33%;
+    margin-bottom: 80px;
+}
+.column2{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 80px;
+}
