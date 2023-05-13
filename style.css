@@ -34,11 +34,10 @@ li button{
     border-radius: 5px;
 }
 .Rent{
-    color: orange;
+    color:orangered;
     background-color: white;
     padding: 5px 15px;
-    border-color: #ff8800;
-    font-size: 15PX;
+    border: 1px solid orangered;
 }
 .mercedes{
     width: 20%;
