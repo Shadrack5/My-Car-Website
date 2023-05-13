@@ -73,3 +73,12 @@ h4{
 .row-client{
     margin-top: 65%;
 }
+.column7{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-top: 100px;
+    border: 2px solid white;
+    display: inline-block;
+    
+}
