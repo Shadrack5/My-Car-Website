@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!--start of navigation items-->
@@ -43,11 +44,22 @@
         
         <div class="column5">
             <h2><b>Top Rated Cars</b></h2>
-            <li><button> Mercedes</button></li>
-            <li><button>Audi </button> </lI>
-            <li><button>Honda</button></li>
-            <li><button>Toyota</button></LI>
-            <li><button>Mazda</button></lI>
+            <button id="mrt1">
+                <img id="Mercedes" src="mercedeslogo.png" alt=""><p id="M">Mercedes</p>
+            </button>
+            <button id="mrt">
+                <img id="audi" src="mercedeslogo.png" alt=""><p id="M">Mercedes</p>
+            </button>
+            <button id="mrt">
+                <img id="honda" src="mercedeslogo.png" alt=""><p id="M">Mercedes</p>
+            </button>
+            <button id="mrt">
+                <img id="toyota" src="mercedeslogo.png" alt=""><p id="M">Mercedes</p>
+            </button>
+            
+            <button id="mrt">
+              <p id="M"><strong>Explore</strong><span> 10+</span></p>
+            </button>
             </div>
 
         </div>
@@ -81,7 +93,7 @@
             <div class="column">
                 <h3<b>Mercedes Benz C</b></h3>
                 <img  class="car" src="Rectangle 4.png" alt="">
-                <h4>1-3 people</h4><h4>1-3 bags</h4>
+                <h4 class="image-text"><i class="fa fa-user"></i> 1-3 people</h4> <h4 class="image-text"><i class="fa fa-shopping-bag"></i> 1-3 bags</h4>
                 <p><button>Get More Info</button></p>
                 
 
@@ -89,7 +101,7 @@
             <div class="column">
                 <h3<b>Mercedes Benz C</b></h3>
                 <img class="car" src="Rectangle 4.png" alt="">
-                <h4>1-3 people</h4><h4>1-3 bags</h4>
+                <h4 class="image-text"><i></i> 1-3 people</h4><h4>1-3 bags</h4>
                 <p><button>Get More Info</button></p>
                 
 
@@ -187,8 +199,12 @@
                 <h6><b>Subscribe to service</b></h6>
                 <form action="">
                     <input type="text" placeholder="Name:">
-                    <input type="text" placeholder="">
+                    <input type="text" placeholder="Email address">
+                    
                 </form>
+                <p><button class="Submit">Submit</button></p>
+
+                
                 
 
             </div>
