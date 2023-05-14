@@ -55,14 +55,13 @@ li button{
 .mercedes{
     width: 100%;
     margin-right: 500px;
-    margin-top: -180px;
 }
 /* .row{
     margin-top: -200px;
 } */
 .column5{
     display:inline-block;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 200px;
     
 
@@ -71,24 +70,31 @@ li button{
     float: left;
     width: 30%;
     padding: 10px;
-    margin-top: 100px;
-    border: 2px solid green;
+    margin-top: 40pxpx;
+    border: 2px solid white;
+    box-shadow: 10px 5px 2px #888;
+}
+.culumn6{
+    clear: left;
 }
 .car {
     width: 100%;
 }
 
 .car-row {
-    margin-bottom: 200px;
+    margin-bottom: 10px;
+    float: right;
+    box-shadow: 20px;
+
 }
 h4{
     display: inline-block;
 }
 .row-client{
-    margin-top: 65%;
+    margin-top: 65px;
 }
 .column7{
-    float:left;
+    
     width: 30%;
     padding: 10px;
     margin-top: 100px;
@@ -106,11 +112,12 @@ h3{
 }
 .column8{
     background-color: antiquewhite;
-    margin-top: 500px;
+    margin-top: 00px;
     text-align: center;
     padding-bottom: 20px;
     border-bottom: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 600px;
+    margin-top: -590px;
     border-width: 30%;
     height: 170px;
     
@@ -137,27 +144,34 @@ h3{
 .column9{
     float: left;
     padding: 50px;
-    margin-top: -70px;
+    margin-top: -600px;
 }
 .column10{
     float: left;
-    margin-top: -120px;
-    padding: 100px;
+    margin-top: -750px;
+    padding: 200px;
 }
 .column11{
     float: left;
-    padding: 100px;
-    margin-top: -120px;
+    padding: 400px;
+    margin-top: -950px;
 }
+
 input{
     border: 3px solid orangered;
     display: list-item;
     padding: 10px;
     flex-direction: column;
     margin: 8px 0;
+    margin-left: 120px;
+    
+    
 }
 .Submit{
-    border: 20px orangered;
+    background-color: orangered;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
 
 }
 #mrt1{
@@ -211,4 +225,22 @@ span{
     height: 40px;
     border-radius: 10px;
     border: 5 px solid none;
+}
+
+.footer-column {
+    float: left;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    
+}
+.footer-row{
+    margin-top: -500px;
+}
+
+.car-row button {
+    background-color: orangered;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
 }
