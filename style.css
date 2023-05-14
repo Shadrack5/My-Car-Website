@@ -2,8 +2,19 @@
     border-bottom: 1px solid black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-li{
-    display: inline-block;
+.column5 li{
+    padding: 15px;
+    list-style: none;
+    display: inline;
+}
+
+.nav-bar li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+.Start li{
+    display: inline;
     padding: 15px;
 }
 li button{
@@ -12,6 +23,7 @@ li button{
     font-weight: bold;
     border: none;
     padding: 5px 15px;
+    
 }
 .column1{
     float: Left;
@@ -91,13 +103,33 @@ h3{
     
 }
 .column8{
-    background-color: orangered;
+    background-color: antiquewhite;
+    margin-top: 500px;
     text-align: center;
-    margin-right: 400px;
-    margin-left:400px;
-    clear:left;
-    float: right;
+    padding-bottom: 20px;
+    border-bottom: 50px;
+    margin-bottom: 100px;
+    border-width: 30%;
+    height: 170px;
+    
 }
 .IM{
-    display: flex;
+    width: 180px;
+    height: 150px;
+    margin-bottom: 350px;
+    margin-right: 20px;
 }
+.IM1{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 400px;
+    margin-right: 70px;
+}
+.rental{
+    margin-left: 30%;
+    width: 150px;
+    height: 300px;
+    margin-top: -800px;
+    margin-bottom: 350px;
+}
+
